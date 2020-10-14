@@ -10,4 +10,6 @@ url = url[7:]
 slicingDot = url.find(".")
 url = url[:slicingDot]
 
-print(url[:3]+str(len(url))+str(url.count("e"))+"!")
+pw = url[:3]+str(len(url))+str(url.count("e"))+"!"
+
+print(f"{url}의 비밀번호는 {pw}입니다.")
